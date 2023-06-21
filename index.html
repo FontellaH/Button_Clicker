@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- nav bar -->
+    <nav>
+        <h2>Dojonary</h2>
+        <label for="search"></label>
+        <input type="text" id="search" name="search" placeholder="Search">
+        <button onclick="logOn(this)" class="login-button"><strong>Login</strong></button>
+    </nav>
+
+
+    <main>
+        <div class="left-col">
+            <div class="section-1">
+                <div class="col-1">
+                    <h2>ninja</h2>
+                    <h5>noun</h5>
+                    <h6>Plural: ninjas</h6><br>
+                    <div class="button-2">
+                        <button class="likes" onclick="alert('Ninja was liked')"><strong>13 likes</strong></button>
+                    </div>
+                </div>
+
+                <div class="col-2">
+                    <p>A Practitioner skilled in the <br>
+                        <a href="#">Japanese</a> art of <a href="#">ninjutsu</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="section-2">
+                <div class="col-1">
+                    <h2>ninja</h2>
+                    <h5>noun</h5>
+                    <h6>Plural: ninjas</h6><br>
+                    <div class="button-2">
+                        <button><strong>37 likes</strong></button>
+                    </div>
+
+                </div>
+                <div class="col-2">
+                    <p>A <a href="#">programmer</a> who breaks<br>
+                        down problems with <a href="#">zen</a>-like <br> focus</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-col">
+            <div class="col-3">
+                <h3>Dojonary is <br>
+                    defined by<strong> YOU</strong>
+                </h3>
+            </div>
+            <div class="col-4">
+                <div class="button-3">
+                    <button onclick="hide(this)"><strong>Add Defintion</strong></button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
